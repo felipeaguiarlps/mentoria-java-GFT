@@ -1,3 +1,4 @@
+import Desafios.JogoCraps;
 import Desafios.Macaco;
 import Desafios.NumeroReverso;
 import Desafios.funcionários.Consultor;
@@ -31,7 +32,7 @@ public class Teste {
         macaco2.digerir();
    */
 
-        Vendedor vendedor = new Vendedor("Felipe A",
+        /*Vendedor vendedor = new Vendedor("Felipe A",
                 00000000001L,
                 15.6d,
                 40);
@@ -43,8 +44,8 @@ public class Teste {
                 11.3,
                 192);
         System.out.println(consultor.calcularSalario());
-
-
+        */
+        JogoCraps.jogar();
 
     }
 
